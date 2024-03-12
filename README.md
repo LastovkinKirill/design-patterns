@@ -7,14 +7,13 @@ graph TD
     creational --> builder[Builder]
     structural[Structural patterns];
     behavioral[Behavioral patterns];
-    behavioral --> strategy["Strategy"]
     behavioral --> template_method["Template method"]
     concurrency[Concurrency patterns];
 ```
 
 # Node links
 
-[//]: # ([Design patterns]&#40;https://github.com/LastovkinKirill/design-patterns/&#41;)
+[Template method](https://github.com/LastovkinKirill/design-patterns/tree/main/template_method)
 
 # Plan
 
