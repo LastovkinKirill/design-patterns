@@ -26,7 +26,6 @@ graph TD
     structural --> facade[Facade]
     structural --> decorator[Decorator]
     structural --> proxy[Proxy]
-    structural --> mvc[MVC]
     structural --> composite[Composite]
     structural --> flyweight[Flyweight]
 %%%%    
@@ -56,7 +55,6 @@ graph TD
     other_patterns --> dependency_inversion_principle[Dependency inversion principle];
     other_patterns --> monkey_patch[Monkey patch];
     other_patterns --> tdd_fdd_ddd_bdd[TDD FDD BDD DDD];
-    other_patterns --> onion_architecture[Onion architecture];
     other_patterns --> active_record_architecture[Active record];
     other_patterns --> distributed_architecture[Distributed architecture];
     architectural_patterns[Architectural patterns]
