@@ -3,21 +3,76 @@
 ```mermaid
 graph TD
 ;
-    creational[Creational patterns];
-    creational --> builder[Builder]
-    structural[Structural patterns];
-    behavioral[Behavioral patterns];
-    behavioral --> template_method["Template method"]
-    concurrency[Concurrency patterns];
+    principles[Principles]
+    principles --> KIS[KIS];
+    principles --> DRY[DRY];
+    principles --> SOLID[SOLID];
+    principles --> smelly_code[Smelly code];
+%%%%    
+    design_patterns[Design patterns];
+    design_patterns --> creational[Creational patterns];
+    design_patterns --> structural[Structural patterns];
+    design_patterns --> behavioral[Behavioral patterns];
+    design_patterns --> concurrency[Concurrency patterns];
+%%%%
+    creational --> builder[Builder];
+    creational --> abstract_factory[Abstract Factory]
+    creational --> factory_method[Factory method]
+    creational --> singleton[Singleton]
+    creational --> prototype[Prototype]
+%%%%
+    structural --> adapter[Adapter]
+    structural --> bridge[Bridge]
+    structural --> facade[Facade]
+    structural --> decorator[Decorator]
+    structural --> proxy[Proxy]
+    structural --> mvc[MVC]
+    structural --> composite[Composite]
+    structural --> flyweight[Flyweight]
+%%%%    
+    behavioral --> template_method[Template method]
+    behavioral --> strategy[Strategy]
+    behavioral --> observer[Observer]
+    behavioral --> visitor[Visitor]
+    behavioral --> chain_of_responsibility[Chain of responsibility]
+    behavioral --> iterator[Iterator]
+    behavioral --> mediator[Mediator]
+    behavioral --> state[State]
+    behavioral --> command[Command]
+    behavioral --> interpreter[Interpreter]
+    behavioral --> memento[Memento]
+%%%%
+    architectural_patterns[Architectural patterns]
+    architectural_patterns --> mvc[MVC];
+    architectural_patterns --> layered_architecture[Layered Architecture];
+    architectural_patterns --> ports_and_adapters[Ports and Adapters 'Hexagonal' architecture];
+    architectural_patterns --> onion_architecture[Onion architecture];
+    architectural_patterns --> clean_architecture[Clean architecture];
+    architectural_patterns --> microservice_architecture[Microservice architecture];
+%%%%    
+    other_patterns[Other patterns and principles];
+    other_patterns --> dto[DTO];
+    other_patterns --> microservices_and_monolith[Microservices and monolith];
+    other_patterns --> dependency_inversion_principle[Dependency inversion principle];
+    other_patterns --> monkey_patch[Monkey patch];
+    other_patterns --> tdd_fdd_ddd_bdd[TDD FDD BDD DDD];
+    other_patterns --> onion_architecture[Onion architecture];
+    other_patterns --> active_record_architecture[Active record];
+    other_patterns --> distributed_architecture[Distributed architecture];
+    architectural_patterns[Architectural patterns]
+    other_patterns --> dao[DAO];
+    other_patterns --> Repository[Repository];
+
 ```
 
 # Node links
 
 [Template method](https://github.com/LastovkinKirill/design-patterns/tree/main/template_method)
+[Iterator](https://github.com/LastovkinKirill/design-patterns/tree/main/iterator_pattern)
 
-# Plan
+# Priority
 
-1. Patterns to write
+1. Design Patterns
     1. Creational:
         1. Builder
         2. Abstract Factory
