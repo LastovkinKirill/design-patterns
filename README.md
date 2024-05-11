@@ -1,12 +1,4 @@
-# Design patterns
-
-В паттернах основной подход к изучению. Определить задачу с проблемой. Привести пример плохого решение и правильного
-решения с паттерном.
-
-паатерны нужны чтобы решать пробелмы а не задачи. задачи можно решить по разнмоу но можно нагадить так чтобы потом с этим мучиться при поддержке и расшиернии. те вы нарушили солид.
-поэтому паттерны нужны чтобы решать задачи по принципу солид.
-
-# Plan
+# design-patterns
 
 ```mermaid
 graph TD
@@ -114,12 +106,7 @@ graph TD
 
 # Questions
 
-1. What for patterns?
-   2. паттерны это как решать задачи с точки зрения стиля. Можно решить задачу по разному, но они будут проблемы потом
-   3. какую задачу решали паттерны
-      4. они говорят как писать код по солид когда ты встречаешься целевую задачу.
-2. What is anti-patterns?
-2. Dependency injection is a pattern or not? and what it is?
+1. What is anti-patterns?
 
 # Requirements for the cheat sheet
 
@@ -133,41 +120,3 @@ graph TD
 5. Шпаргалка должна быть короткой.
 6. Ссылки на ресурсы и источники, которые тебе помогали понять и ты использовал при написании шпаргалки.
 7. Шпаргалка нужно, чтобы все усвоить, запомнить и быстро вспомнить.
-
-Design patterns in programming exist to provide reusable solutions to common design problems encountered during software
-development. They offer established best practices, guidelines, and templates for structuring code and solving recurring
-design challenges efficiently. Here are some key reasons why design patterns are used and the problems they solve:
-
-1. Problem Abstraction: Design patterns help abstract away from low-level implementation details and focus on
-   higher-level design concepts and structures. They provide a common language for developers to communicate and
-   understand design solutions.
-
-2. Code Reusability: Design patterns encapsulate proven solutions to recurring design problems, making them reusable
-   across different projects and contexts. This promotes code reusability and reduces duplication, leading to more
-   maintainable and scalable codebases.
-
-3. Scalability and Flexibility: By following design patterns, developers can create software architectures that are
-   flexible and scalable. Patterns like Factory, Builder, and Strategy enable the creation of modular, loosely coupled
-   components that can be easily extended or modified without affecting other parts of the system.
-
-4. Maintainability and Readability: Design patterns promote clean, understandable code by organizing software components
-   in a structured and consistent manner. They improve code maintainability by providing well-defined solutions to
-   common problems, making it easier for developers to understand and modify existing code.
-
-5. Solving Specific Problems: Design patterns address specific problems or challenges encountered during software
-   development, such as object creation, behavior encapsulation, algorithm design, concurrency management, and more. For
-   example, Singleton ensures that a class has only one instance, Observer facilitates communication between objects,
-   and Adapter enables interoperability between incompatible interfaces.
-
-6. Best Practices and Guidelines: Design patterns embody best practices and guidelines accumulated over years of
-   software engineering experience. They reflect industry-wide consensus on effective software design principles and
-   help developers avoid common pitfalls and anti-patterns.
-
-7. Facilitating Communication and Collaboration: Design patterns serve as a common vocabulary for discussing and
-   documenting software designs. They facilitate communication and collaboration among team members by providing a
-   shared understanding of design concepts and solutions.
-
-In summary, design patterns in programming serve as proven solutions to common design problems, promoting code
-reusability, scalability, maintainability, and flexibility. They enable developers to create well-structured,
-understandable, and maintainable software architectures while adhering to established best practices and guidelines.
-
